@@ -1,5 +1,5 @@
 
-module.exports = class PayloadEntity {
+module.exports = class PixEntity {
     constructor(pixKey, name, city, idTransaction, message, amount) {
         this.pixKey = pixKey;
         this.name = name;

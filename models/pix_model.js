@@ -1,6 +1,6 @@
 
-const PayloadEntity = require('./entities/payload_pix');
-const pixEntity = new PayloadEntity();
+const PixEntity = require('./entities/pix');
+const pixEntity = new PixEntity();
 
 function merchantAccountInformation(pix) {
     var pixLength = `${pix}`.length;

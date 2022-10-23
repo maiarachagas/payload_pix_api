@@ -6,11 +6,11 @@ const controller = require('../controllers/pix_controller');
 
 /* GET */
 router.get('/', function (req, res, next) {
-    res.send('respond with a resource-payload');
+    res.send('GET called successfully');
 });
 
 /* POST */
-router.post('/create', function (req, res, next) {
+router.post('/', function (req, res, next) {
     try {
         var data = {
             "pix": req.body['pixKey'], "name": req.body['name'], "city": req.body['city'], "idTransaction": req.body['idTransaction'], "amount": req.body['amount'], "message": req.body['message']

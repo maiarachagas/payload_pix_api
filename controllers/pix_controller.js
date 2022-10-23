@@ -1,6 +1,6 @@
 
 
-const model = require('../models/payload_pix_model');
+const model = require('../models/pix_model');
 const crc = require('easy-crc');
 
 
